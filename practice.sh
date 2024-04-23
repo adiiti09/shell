@@ -33,3 +33,12 @@
 # else
 # echo "Number is zero"
 # fi
+
+#QUESTION3
+echo "Enter the sentence"
+read sen
+echo "Enter the word"
+read w
+echo "Enter the word to be replaced"
+read rw
+echo "The modified sentence is: ${sen/$w/$rw}"
