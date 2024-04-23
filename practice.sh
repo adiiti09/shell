@@ -46,8 +46,21 @@
 #QUESTION4
 #!/bin/bash
 
-arr=(24 27 84 11 99 22)
+# arr=(24 27 84 11 99 22)
 
-echo "Given array: ${arr[*]}"
-len=${#arr[@]}
-echo "The length of the array: $len"
+# echo "Given array: ${arr[*]}"
+# len=${#arr[@]}
+# echo "The length of the array: $len"
+
+#QUESTION5
+ #!/bin/bash
+
+read -p "Enter the file name for deletion: " file
+
+if [ -f $file ]
+then
+rm $file
+echo "The file $file deleted successfully!"
+else
+echo "Error! The file $file does not exist."
+fi
