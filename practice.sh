@@ -35,10 +35,19 @@
 # fi
 
 #QUESTION3
-echo "Enter the sentence"
-read sen
-echo "Enter the word"
-read w
-echo "Enter the word to be replaced"
-read rw
-echo "The modified sentence is: ${sen/$w/$rw}"
+# echo "Enter the sentence"
+# read sen
+# echo "Enter the word"
+# read w
+# echo "Enter the word to be replaced"
+# read rw
+# echo "The modified sentence is: ${sen/$w/$rw}"
+
+#QUESTION4
+#!/bin/bash
+
+arr=(24 27 84 11 99 22)
+
+echo "Given array: ${arr[*]}"
+len=${#arr[@]}
+echo "The length of the array: $len"
