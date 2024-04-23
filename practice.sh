@@ -55,12 +55,26 @@
 #QUESTION5
  #!/bin/bash
 
-read -p "Enter the file name for deletion: " file
+# read -p "Enter the file name for deletion: " file
 
-if [ -f $file ]
+# if [ -f $file ]
+# then
+# rm $file
+# echo "The file $file deleted successfully!"
+# else
+# echo "Error! The file $file does not exist."
+# fi
+
+#QUESTION6
+
+echo "enter the file name"
+read f
+echo "enter the new file name"
+read nf
+if [-f $f]
 then
-rm $file
-echo "The file $file deleted successfully!"
+mv "$f" "$nf"
+echo "The file has been renamed as $nf"
 else
-echo "Error! The file $file does not exist."
+echo " The file does not exists"
 fi
