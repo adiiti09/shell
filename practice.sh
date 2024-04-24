@@ -67,14 +67,25 @@
 
 #QUESTION6
 
-echo "enter the file name"
-read f
-echo "enter the new file name"
-read nf
-if [-f $f]
+# echo "enter the file name"
+# read f
+# echo "enter the new file name"
+# read nf
+# if [-f $f]
+# then
+# mv "$f" "$nf"
+# echo "The file has been renamed as $nf"
+# else
+# echo " The file does not exists"
+# fi
+
+#QUESTION 7
+
+echo "Enter the file name"
+read fname
+if [-f $fname]
 then
-mv "$f" "$nf"
-echo "The file has been renamed as $nf"
+echo "File exists"
 else
-echo " The file does not exists"
+echo "File does not exists"
 fi
