@@ -112,3 +112,11 @@
 # else
 # echo "The strings are not equal."
 # fi
+
+#QUESTION 9
+echo "Enter a number"
+read num
+for ((i=1; i<20; i++))
+do
+echo "$num * $i = $(($num * $i))"
+done
