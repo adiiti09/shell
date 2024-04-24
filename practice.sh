@@ -81,11 +81,34 @@
 
 #QUESTION 7
 
-echo "Enter the file name"
-read fname
-if [-f $fname]
-then
-echo "File exists"
-else
-echo "File does not exists"
-fi
+# echo "Enter the file name"
+# read fname
+# if [-f $fname]
+# then
+# echo "File exists"
+# else
+# echo "File does not exists"
+# fi
+
+#QUESTION 8
+
+# str1="aditi"
+# str2="aditi"
+# if [ $str1 == $str2 ]
+# then
+# echo "strings are equal"
+# else
+# echo "strings are not equal"
+# fi
+# ----------------------------------
+
+#!/bin/bash
+
+# string1="hello"
+# string2="world"
+
+# if [ "$string1" == "$string2" ]; then
+# echo "The strings are equal."
+# else
+# echo "The strings are not equal."
+# fi
