@@ -114,9 +114,18 @@
 # fi
 
 #QUESTION 9
-echo "Enter a number"
-read num
-for ((i=1; i<20; i++))
-do
-echo "$num * $i = $(($num * $i))"
-done
+# echo "Enter a number"
+# read num
+# for ((i=1; i<20; i++))
+# do
+# echo "$num * $i = $(($num * $i))"
+# done
+
+
+#QUESTION 10
+
+# echo "enter a number"
+# read num1
+# echo "enter another number"
+# read num2
+# echo "The remainder is: $(($num1 % $num2))"
