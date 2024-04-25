@@ -104,12 +104,12 @@
 
 #!/bin/bash
 
-# string1="hello"
+# st# else
+#string1="hello"
 # string2="world"
 
 # if [ "$string1" == "$string2" ]; then
 # echo "The strings are equal."
-# else
 # echo "The strings are not equal."
 # fi
 
@@ -129,3 +129,15 @@
 # echo "enter another number"
 # read num2
 # echo "The remainder is: $(($num1 % $num2))"
+
+#QUESTION 11
+
+echo "Enter a number"
+read num
+sum=0
+for ((i=1; i<=$num; i++))
+do
+sum=$(($sum + i))
+done
+echo "sum of integers from 1 to $num is : $sum"
+
