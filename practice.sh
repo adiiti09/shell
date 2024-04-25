@@ -132,12 +132,23 @@
 
 #QUESTION 11
 
-echo "Enter a number"
-read num
-sum=0
-for ((i=1; i<=$num; i++))
-do
-sum=$(($sum + i))
-done
-echo "sum of integers from 1 to $num is : $sum"
+# echo "Enter a number"
+# read num
+# sum=0
+# for ((i=1; i<=$num; i++))
+# do
+# sum=$(($sum + i))
+# done
+# echo "sum of integers from 1 to $num is : $sum"
+
+#QUESTION 12
+
+echo "Enter the file name"
+read fname
+if [-f $fname]
+then
+echo "file exists!"
+else
+echo "file does not exists"
+fi
 
