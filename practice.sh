@@ -206,14 +206,28 @@
 
 #QUESTION 16
 
-echo "enter file name to be copied"
-read fname
-if [ -f $fname ]
-then
-cp "$fname"
-echo "file copied successfully!"
+# echo "enter file name to be copied"
+# read fname
+# if [ -f $fname ]
+# then
+# cp "$fname"
+# echo "file copied successfully!"
+# else
+# echo "file not found!"
+# fi
+
+#QUESTION 17
+
+echo "enter directory name"
+read dir
+if [ -d $dir ]
+then 
+echo "directory exists!"
+rm "$dir"
+echo "directory removed"
 else
-echo "file not found!"
+echo "directory does not exists!"
 fi
+
 
 
