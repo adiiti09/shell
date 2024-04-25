@@ -143,12 +143,77 @@
 
 #QUESTION 12
 
-echo "Enter the file name"
+# echo "Enter the file name"
+# read fname
+# if [ -f $fname ]
+# then
+# echo "file exists!"
+# else
+# echo "file does not exists"
+# fi
+
+#QUESTION 13
+
+# echo "Enter the name of the file to be deleted"
+# read fname
+# if [ -f $fname ]
+# then
+# rm "$fname"
+# echo "file deleted!"
+# else
+# echo "file not found"
+# fi
+
+#QUESTION 14
+
+# echo "enter a number greater than 10"
+# read num
+# if [ $num -gt 10 ]
+# then
+# echo "number is correct"
+# else
+# echo "incorrect number"
+# fi
+
+#QUESTION 15
+
+# echo "Enter a number and you will get the day"
+# read num
+# if [ $num == 1 ]
+# then
+# echo "Monday"
+# elif [ $num == 2 ]
+# then 
+# echo "Tuesday"
+# elif [ $num == 3 ]
+# then
+# echo "Wednesday"
+# elif [ $num == 4 ]
+# then
+# echo "Thursday"
+# elif [ $num == 5 ]
+# then
+# echo "Friday"
+# elif [ $num == 6 ]
+# then
+# echo "Saturday"
+# elif [ $num == 7 ]
+# then 
+# echo "Sunday"
+# else
+# echo "No day exists on this number!"
+# fi
+
+#QUESTION 16
+
+echo "enter file name to be copied"
 read fname
-if [-f $fname]
+if [ -f $fname ]
 then
-echo "file exists!"
+cp "$fname"
+echo "file copied successfully!"
 else
-echo "file does not exists"
+echo "file not found!"
 fi
+
 
