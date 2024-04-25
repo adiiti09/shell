@@ -247,3 +247,20 @@
 # fi
 
 
+#QUESTION 19
+
+# echo "enter a number"
+# read num
+# for (( i=1; i<=10; i++))
+# do
+# echo " $num * $i = $(($num * $i))"
+# done
+
+# echo "Enter a number"
+# read num
+# for (( i=0; i<=10; i++))
+# do
+# echo "$((num + i))"
+# done
+
+
