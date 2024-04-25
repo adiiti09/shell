@@ -218,16 +218,32 @@
 
 #QUESTION 17
 
-echo "enter directory name"
-read dir
-if [ -d $dir ]
-then 
-echo "directory exists!"
-rm "$dir"
-echo "directory removed"
-else
-echo "directory does not exists!"
-fi
+# echo "enter directory name"
+# read dir
+# if [ -d $dir ]
+# then 
+# rmdir "$dir"
+# echo "directory removed"
+# else
+# echo "directory does not exists!"
+# fi
 
+
+
+# read -p "My name is : $name"
+
+#QUESTION 18
+
+# echo "Enter the file name"
+# read fname
+# if [ -f $fname ]
+# then
+# echo "File is a regular file"
+# elif [ -d $fname ]
+# then
+# echo "File is a directory"
+# else
+# echo "File is another type of file or it does not exists"
+# fi
 
 
