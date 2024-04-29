@@ -264,3 +264,18 @@
 # done
 
 
+#QUESTION 20
+
+echo "enter the file name"
+read fname
+if [ -e $fname ]
+then
+while IFS = read -r line
+do
+echo “Line read: $line”
+# Add your processing logic here
+done < “$file”
+else
+echo “File not found: $file”
+fi
+
